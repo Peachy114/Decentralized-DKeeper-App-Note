@@ -1,17 +1,63 @@
-# `Dkeeper`
+# DKeeper App
 
-Welcome to your new `Dkeeper` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+DKeeper is a decentralized note-keeping application built with **Motoko** for the backend and **React** for the frontend. It allows users to create, view, and delete notes in a decentralized environment powered by the Internet Computer.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+---
 
-To learn more before you start working with `Dkeeper`, see the following documentation available online:
+## Features
 
-- [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
-- [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
-- [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/motoko/main/motoko)
-- [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/motoko/main/language-manual)
+- **Create Notes**: Add new notes with a title and content.
+- **View Notes**: Display a list of all saved notes.
+- **Delete Notes**: Remove notes from the list.
+- **Decentralized Backend**: Notes are stored and managed on the Internet Computer using Motoko.
 
-If you want to start working on your project right away, you might want to try the following commands:
+---
+
+## Tech Stack
+
+### Backend
+- **Motoko**: The backend is written in Motoko, a programming language designed for the Internet Computer.
+- **Internet Computer**: The app is deployed on the Internet Computer, ensuring decentralized and secure data storage.
+
+### Frontend
+- **React**: The frontend is built with React, providing a dynamic and interactive user interface.
+- **Vite**: Used as the build tool for the React application.
+
+---
+
+## Installation
+
+### Prerequisites
+- Node.js and npm installed on your machine.
+- DFX (Dfinity SDK) installed for deploying the backend.
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Peachy114/Decentralized-DKeeper-App-Note.git
+   cd Decentralized-DKeeper-App-Note
+
+Usage
+Add a Note: Use the input fields to add a new note with a title and content.
+View Notes: All notes are displayed in a list format.
+Delete a Note: Click the delete button on a note to remove it.
+
+Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+   
+Acknowledgments
+Dfinity Foundation for the Internet Computer and Motoko.
+React for the frontend framework.
+
+COMMENT
+You can customize this further based on your specific project details. Let me know if you'd like to add anything! 😊❤️
+
+
+
+===============================================================
 
 ```bash
 cd Dkeeper/
